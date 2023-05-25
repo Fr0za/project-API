@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  gap: 10px 20px;
+  font-family: cursive;
+
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+}
+
+.menu a.active {
+  color: green;
+  text-decoration: underline;
+}
